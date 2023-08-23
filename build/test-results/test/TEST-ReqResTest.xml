@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReqResTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-17T02:56:29" hostname="CL-NB-1305" time="2.21">
+  <properties/>
+  <testcase name="testPostUser()" classname="ReqResTest" time="2.21"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{name=Alejadra, job=Costumer Success}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{name=Alejadra, job=Costumer Success}
+HTTP/1.1 400 Bad Request
+Date: Thu, 17 Aug 2023 02:56:31 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8bNiqs7S9psXYri9ffPvWYoOfG4diwRlH7H3feTA5nss3T6MRAyDnQOyzqdQcxKd9bK4YOcJ%2BU3FNJm%2FAwT5BxvCFs36VlSBKCkwm0Blg0Ahs2w7ikAGA35yOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7f7ea4ef2f5729fb-SCL
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Bad Request</pre>
+  </body>
+</html>
+HTTP/1.1 400 Bad Request
+Date: Thu, 17 Aug 2023 02:56:31 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8bNiqs7S9psXYri9ffPvWYoOfG4diwRlH7H3feTA5nss3T6MRAyDnQOyzqdQcxKd9bK4YOcJ%2BU3FNJm%2FAwT5BxvCFs36VlSBKCkwm0Blg0Ahs2w7ikAGA35yOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7f7ea4ef2f5729fb-SCL
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Bad Request</pre>
+  </body>
+</html>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
